@@ -1,0 +1,82 @@
+body {
+  background-color: #007bff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.form-box {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: left;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-group div {
+  width: 45%;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+select {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.gender-group {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+.gender-option {
+    margin: 0;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="submit"],
+.reset-btn {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 48%;
+}
+
+input[type="submit"]:hover,
+.reset-btn:hover {
+    background-color: #0056b3;
+}
